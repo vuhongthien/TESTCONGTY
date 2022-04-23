@@ -1,0 +1,179 @@
+body {
+    background: #f5f6f7;
+}
+.head {
+    width: 1110px;
+    height: auto;
+    margin-bottom: 10px;
+    float: right;
+}
+img {
+    width: 100%;
+    height: 100%;
+}
+.menu{
+	width: 170px;
+	height: 100%;
+	float: left;
+	background: #242526de;	
+	border-radius: 20px;
+	text-align: center;
+	padding-top: 20px;
+	margin-left: 30px;
+}
+.content {
+    width: 1110px;
+    height: 100%;
+    
+    float: right;
+}
+.khungavt {
+    width: 100px;
+    float: right;
+}
+.avatar {
+    width: 35px;
+    height: 35px;
+    float: right;
+    position: absolute;
+    top: 10px;
+    margin-left: 40px;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+.logo {
+    color: #edc816eb;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.info {
+    float: left;
+    height: 410px;
+    width: 540px;
+    margin-left: 20px;
+}
+.info h3 {
+    margin-left: 280px;
+}
+.khunghinh {
+    float: right;
+    height: 100%;
+    width: 400px;
+    text-align: center;
+    margin-right: 50px;    
+}
+.hinh {
+    height: 80%;
+    padding: 10px;
+    border: 1px solid #ebedef;
+    border-radius: 10px;
+}
+.hinh img {
+    border-radius: 10px;
+}
+.khung {
+    
+    width: 1340px;
+    height: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.themdiachi {
+    float: left;
+    margin-top: -10px;
+}
+.themdiachi a h3 {
+    font-size: 18px;
+    color: #242526c7;
+}
+.khung_content {
+    height: 460px;
+    background: #fbfbfb;
+    border-radius: 20px;
+    box-shadow:  2px 5px 2px #7e808133;
+    margin-right: 100px;
+}
+h3 {
+    margin: 0px;
+    margin-top: 10px;
+    color:#8d8d8d;
+    font-size: 15px;
+}
+form {
+	height: 100%;
+    padding: 10px;
+}
+.button {
+    width: 100px;
+    background: #969bb959;    
+    height: 35px;
+    margin: 10px;   
+    display: inline-grid;
+    border-radius: 5px;
+    border: 2px solid white;
+    
+}
+.button2 {
+    width: 100px;
+    background: #edc816eb;    
+    height: 35px;
+    margin: 10px;   
+    display: inline-grid;
+    border-radius: 5px;
+    border: 2px solid white;
+    
+}
+.button a h3 {
+    font-size: 15px;
+    color: #0e6789ad;    
+}
+.button2 a h3 {
+    font-size: 15px;
+    color: #0e6789ad;    
+}
+a{
+	text-decoration: none
+
+}
+.listmenu {
+    margin-left: 20px;
+    float: left;
+    text-align: initial;
+}
+.listmenu a h3 {
+    
+    margin-top: 20px;
+    font-size: 13px;
+}
+.listmenu a h3:hover {
+    
+   color: #edc816eb;
+}
+.khung_button {
+    text-align: center;
+}
+.detail_info {
+    margin-bottom: 16px;
+    margin-left: 10px;
+    width: 330px;
+    height: 25px;
+    padding-left: 10px;
+    border: 1px solid #ededed;
+    border-radius: 6px;
+}
+label {
+	display: inline-block;
+    width: 150px;
+}
+select#a, select#b, select#c, select#d {
+    height: 29px;
+    width: 344px;
+}
+.detail_info:hover {
+    background: #fbfbfbd9;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/09c546e0e8.js" crossorigin="anonymous"></script>
+    <title>Trang chủ</title>
+</head>
+<body>
+    <div class="khung">
+        <div class="menu">            
+            <a href="index.php" class="logo">MOM &amp; BABY.</a>            
+            <div class="listmenu">
+                <a href="#"><h3><i class="fa-solid fa-bars"></i> Trang chủ</h3></a>
+            <a href="#"><h3><i class="fa-solid fa-briefcase"></i> Yêu cầu công việc</h3></a>
+            <a href="#"><h3><i class="fa-solid fa-rotate-left"></i> Yêu cầu đổi ca</h3></a>
+            <a href="#"><h3><i class="fa-solid fa-people-group"></i> Người tuyển dụng</h3></a>
+            <a href="#"><h3><i class="fas fa-swatchbook"></i> Báo cáo</h3></a>
+            <a href="#"><h3 style="color: #edc816eb;"><i class="fa-solid fa-location-dot"></i> Địa điểm</h3></a>
+            </div>                       
+        </div>    
+        <div class="head">
+                <div class="themdiachi">
+                    <a href="#"><h3><i class="fa-solid fa-location-dot"></i> Thêm địa chỉ</h3></a>
+                </div>  
+                <div class="khungavt">
+                    <a href="#"><h3><i class="fa-solid fa-bell"></i></h3></a>          
+                    <div class="avatar">                    
+                        <a href="#"><img src="images/DSC_0008.jpg"></a>
+                    </div>
+                </div>                
+            </div>    
+        <div class="content">
+            
+            <div class="khung_content">
+                <div class="info">
+                    <h3>Địa điểm làm việc</h3>
+                    <form action="" method="POST">
+                        <label><b>Tên</b></label>
+                        <input type="text" class="detail_info" placeholder="Tên" name="ten"></br>
+                        <label><b>Quốc gia</b></label>
+                        <select id="a" class="detail_info" name="quocgia" >
+                            <option value="Việt Nam">Việt Nam</option>
+                            <option value="Trung Quốc">Trung Quốc</option>                            
+                        </select></br>
+                        <label><b>Thành phố</b></label>
+                        <select id="b" class="detail_info" name="thanhpho">
+                            <option  value=""disabled selected hidden>Chọn</option>    
+                            <option value="">HCM</option>                                        
+                        </select></br>
+                        <label><b>Quận huyện</b></label>
+                        <select id="c" class="detail_info" name="quanhuyen" >
+                            <option  value=""disabled selected hidden>Chọn</option>    
+                            <option value="">Nhơn Trạch</option>                            
+                        </select></br>
+                        <label><b>Phường/xã</b></label>
+                        <select id="d" class="detail_info" name="phuongxa" >
+                            <option  value=""disabled selected hidden>Chọn</option>    
+                            <option value="">Phú Đông</option>                             
+                        </select></br>
+                        <label><b>Địa chỉ</b></label>
+                        <input class="detail_info" type="text" placeholder="Địa chỉ" name="diachi"></br>
+                        <label><b>Mã bưu điện</b></label>
+                        <input class="detail_info" type="text" placeholder="Mã bưu chính" name="mabuuchinh"></br>
+                        <label><b>Hướng dẫn đường đi</b></label>
+                        <input class="detail_info" type="text" placeholder="Hướng dẫn đường đi" name="huongdan"></br>
+                        <label><b>Chia sẻ</b></label>                        
+                            <input type="checkbox" name="co"checked>
+                            <label>Có</label>                        
+                            <input type="checkbox" name="khong">
+                            <label>Không</label>                        
+                    </form>
+                </div>
+                <div class="khunghinh">
+                    <div>
+                        <h3>Bản đồ</h3>
+                    </div>                    
+                    <div class="hinh">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7838.684254869503!2d106.70676642475235!3d10.785086936675276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1547181657956" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+                    </div>
+                </div>
+            </div>
+            <div class="khung_button">
+                <div class="button"><a href="#"><h3>Huỷ</h3></a></div>
+                <div class="button2"><a href="#"><h3>Tạo địa điểm</h3></a></div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
